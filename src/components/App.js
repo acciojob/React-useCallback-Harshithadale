@@ -4,7 +4,7 @@ import React, { useState, useCallback } from "react";
 // SkillList Component
 const SkillList = React.memo(({ skills, onDelete }) => {
   return (
-    <ul>
+    <ul id="skill-list">
       {skills.map((skill, idx) => (
         <li
           key={idx}
